@@ -7,3 +7,13 @@ result-*
 
 # Ignore NixOS interactive test driver history
 **/.nixos-test-history
+
+# Ignore nixos package versions
+flake.lock
+
+# Jujutsu vcs working directory
+.jj
+
+# MacOS desktop metadata
+.DS_Store
+
